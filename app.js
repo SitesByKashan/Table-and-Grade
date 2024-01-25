@@ -1,5 +1,5 @@
 const x = prompt("Enter the number of the table...")
-for (let i = 2; i <= x; i++) {
+for (let i = x; i <= 20; i++) {
     for(let k = 1; k <= 10; k++){
         result = k*i
         document.write(`${i} x ${k} = ${result} <br>`)
